@@ -37,6 +37,7 @@ h2 {
     text-align: right;
     word-spacing: 40px;
     font-family: 'Lato', sans-serif;
+    cursor: pointer;
 }
 
 /*++++++++Header Einstellungen Ende +++++++++*/
@@ -65,6 +66,7 @@ h2 {
     background: url("../img/illustration2.png") left/ contain no-repeat;
     background-size: 700px;
     padding: 10% 5% 10% 0%;
+    margin-left: 5%;
 }
 
 .pageone1 {
@@ -81,6 +83,7 @@ h2 {
     border: 1px solid black;
     background-color: black;
     color: white;
+    border-radius: 5px;
     padding: 10px 12px;
 }
 
@@ -88,7 +91,12 @@ h2 {
     border: 1px solid black;
     background-color: white;
     color: black;
+    border-radius: 5px;
     padding: 10px 12px;
+}
+
+.pageone a:hover {
+    box-shadow: 0 0 5px black;
 }
 
 /*++++++++Seite 1 Einstellungen Ende +++++++++*/
@@ -96,8 +104,8 @@ h2 {
 /*++++++++Seite 2 Einstellungen Start +++++++++*/
 
 section div img {
-    width: 33%;
-    padding: 5% auto;
+    width: 29%;
+    margin: 2%;
 }
 
 section div img:hover {
@@ -116,7 +124,7 @@ section div img:hover {
 
 .Pictures img {
     width: 40%;
-    padding: 5% 4%;
+    margin: 5% 4%;
 }
 
 /*++++++++Seite 3 Einstellungen Ende +++++++++*/
@@ -129,10 +137,13 @@ section div img:hover {
     width: 320px;
     margin: 40px auto 90px auto;
     line-height: 150%;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .page4 p:nth-of-type(1) {
-    padding: 5% 0% 5% 0%;
+    padding: 5% 0% 10% 0%;
     font-size: 28px;
 }
 
@@ -149,8 +160,15 @@ section div img:hover {
 .page4 p:last-child {
     background-color: #24bff2;
     color: #fff;
-    border-radius: 10px;
-    margin: 30px 15px;
+    border-radius: 7px;
+    margin-top: 30px;
+    padding: 10px 50px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.page4 p:last-child:hover {
+    box-shadow: 0 0 5px black;
 }
 
 /*++++++++Seite 4 Einstellungen Ende +++++++++*/
